@@ -1,0 +1,300 @@
+/* CSS reset
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset結束 */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 4805px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    width: 1920px;
+    height: 80px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+    align-items: center;
+}
+img{
+    width: 80px;
+    height: 49px;
+}
+a{
+    text-decoration-line: none;
+}
+ul{
+    width: 492px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.title{
+    width: 1920px;
+    height: 787px;
+    background: transparent url('image/home-header.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 100%;
+}
+.container1{
+    margin-left: 1032px;
+    margin-top: 296px;
+    width: 576px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+h2{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 36px/54px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal normal 36px/54px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    opacity: 1;
+}
+h1{
+    font: var(--unnamed-font-style-normal) normal bold 64px/96px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 64px/96px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    opacity: 1;
+}
+.button{
+    width: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font: var(--unnamed-font-style-normal) normal medium 20px/30px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal medium 20px/30px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 488px;
+    background: var(--unnamed-color-fbf2f2) 0% 0% no-repeat padding-box;
+    background: #FBF2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    width: 528px;
+    height: 72px;
+    margin-top: 80px;
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: left;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.container2{
+    justify-content: space-between;
+    margin-top: 32.08px;
+    height: 223.66px;
+    width: 1296px;
+    display: flex;
+}
+.item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 306px;
+    height: 223.66px;
+}
+.item img{
+    width: 84px;
+    height: 84px;
+}
+h4{
+    font: var(--unnamed-font-style-normal) normal bold 24px/36px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-650300);
+    text-align: center;
+    font: normal normal bold 24px/36px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #650300;
+    text-transform: uppercase;
+    opacity: 1;
+}
+p{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/24px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/24px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.glass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 776px;
+    width: 1920px;
+}
+.container3{
+    justify-content: space-between;
+    margin-top: 48px;
+    height: 496px;
+    width: 1296px;
+    display: flex;
+}
+.item2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 306px;
+    height: 223.66px;
+}
+.item2 img{
+    width: 416px;
+    height: 416px;
+}
+.item2 h4{
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-aa0601);
+    text-align: center;
+    font: italic normal 900 48px/72px Roboto;
+    letter-spacing: 0px;
+    color: #AA0601;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.feat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 608px;
+    background: transparent url('image/index-bg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: contain;  
+}
+.feat h3{
+    font: var(--unnamed-font-style-normal) normal bold 48px/72px var(--unnamed-font-family-source-han-sans-tw);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal bold 48px/72px Source Han Sans TW;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.recommand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 791px;
+    width: 1920px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 922px;
+    background: var(--unnamed-color-fbf2f2) 0% 0% no-repeat padding-box;
+    background: #FBF2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    height: 353px;
+    background: var(--unnamed-color-aa0601) 0% 0% no-repeat padding-box;
+    background: #AA0601 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
